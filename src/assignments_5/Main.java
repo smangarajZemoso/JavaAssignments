@@ -5,7 +5,7 @@ public class Main {
         DefaultInitialization defaultInitialization = new DefaultInitialization();
         defaultInitialization.printClassVariable();
         defaultInitialization.printLocalVariable(12,'C');
-        SingletonInitialization singletonInitialization = SingletonInitialization.singleTon("Sacrifice");
+        SingletonInitialization singletonInitialization = SingletonInitialization.singleton("Sacrifice");
         singletonInitialization.printStaticVariable();
     }
 }
